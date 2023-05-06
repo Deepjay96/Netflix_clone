@@ -1,0 +1,329 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    
+}
+
+
+.header{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient( rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) , url(https://assets.nflxext.com/ffe/siteui/vlv3/efb4855d-e702-43e5-9997-bba0154152e0/42f6dd08-d478-46e4-a4a8-e3a93aa7e085/IN-en-20230417-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  
+}
+
+ nav img{
+   width: 170px;
+   height: 90px;
+   color: red;
+   position: relative;
+   
+   left: 174px; 
+   
+}
+
+ nav{
+    width: 100vw;
+    /* background-color: aqua; */
+     
+    display: flex;
+
+}
+
+ .btn1{
+    position: absolute;
+    top: 35px;
+    right: 186px;
+    
+
+}
+
+button{
+    padding: 7px 15px;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+    margin: 0px 10px;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+.B1  {
+    
+    padding: 8px 200px 8px 10px;
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    /* height: 10px; */
+    /* width: 10px; */
+    /* background-color: black; */
+     border: 2px solid wheat;
+     border-radius: 5px;
+
+
+}
+
+.B1 img{
+    
+    width: 15px;
+    height: 15px;
+    background-color: aqua;  
+    color: aqua;
+}
+
+
+.header-content{
+    /* background-color: aqua; */
+   
+    position: absolute;
+    top: 39%;
+    left: 21%;
+    text-align: center;
+
+}
+
+.header-content h1{
+    color: white;   
+    font-size: 55px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 1050px;
+    
+    /* background-color: aqua; */
+
+}
+
+.header-content h3{
+    color: whitesmoke;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    /* background-color: aqua; */
+
+}
+
+.header-content p{
+     color: whitesmoke;
+    font-size: 25px;
+}
+
+
+.header-content .email-signup input{
+         padding: 15px 230px 15px 13px;
+         background: transparent;
+         color: white;
+        border-radius: 4px;
+        margin-top: 20px;
+        border: 1px solid linen;
+        font-size: 17px;
+
+    
+}
+
+.header-content .email-signup button {
+     width: 190px;
+     height: 57px;
+    font-size:  20px;
+    border-radius: 4px;
+}
+
+.Hline{
+    height: 7px;
+    background-color: grey;
+}
+
+
+.R1{
+    background: black;
+    width: 100vw;
+    display: flex;
+
+
+
+}
+
+.R1 .T1{
+    color: white;
+    width: 50vw;
+   
+
+
+}
+
+ .R1 .T1 .text{
+    position: relative;
+    top: 175px;
+    left: 180px;
+   
+}
+
+.text h2{
+    font-size: 48px;
+
+}
+
+.text p{
+     padding-top: 20px;
+     font-size: 24px;
+
+}
+
+.R1 .img1{
+    width: 50vw;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    margin-left: 10px;
+}
+
+
+
+
+.R2{
+    background: black;
+    width: 100vw;
+    display: flex;
+
+
+
+}
+
+.R2 .T1{
+    color: white;
+    width: 50vw;
+   
+
+
+}
+
+ .R2 .T1 .text{
+    position: relative;
+    top: 175px;
+    right: 30px;
+   
+}
+
+.text h2{
+    font-size: 48px;
+
+}
+
+.text p{
+     padding-top: 20px;
+     font-size: 24px;
+
+}
+
+.R2 .img1{
+    width: 50vw;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    margin-left: 180px;
+}
+
+.R3{
+    background: black;
+    width: 100vw;
+    display: flex;
+
+
+
+}
+
+.R3 .T1{
+    color: white;
+    width: 50vw;
+   
+
+
+}
+
+ .R3 .T1 .text{
+    position: relative;
+    top: 175px;
+    left: 180px;
+   
+}
+
+.text h2{
+    font-size: 48px;
+
+}
+
+.text p{
+     padding-top: 20px;
+     font-size: 24px;
+
+}
+
+.R3 .img1{
+    width: 50vw;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    margin-left: 10px;
+}
+
+
+.R4{
+    background: black;
+    width: 100vw;
+    display: flex;
+
+
+
+}
+
+.R4 .T1{
+    color: white;
+    width: 50vw;
+   
+
+
+}
+
+ .R4 .T1 .text{
+    position: relative;
+    top: 175px;
+    right: 30px;
+   
+}
+
+.text h2{
+    font-size: 48px;
+
+}
+
+.text p{
+     padding-top: 20px;
+     font-size: 24px;
+
+}
+
+.R4 .img1{
+    width: 50vw;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    margin-left: 100px;
+}
+
+/* faq */
+
+
+
+
+
+
